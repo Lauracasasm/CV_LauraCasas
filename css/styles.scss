@@ -1,0 +1,151 @@
+$colorFondo: #eff2ef;
+$letra: 'Poppins', sans-serif;
+$colorMenu: #494e5f;
+$colorCajas:#ffe7d4;
+
+body{
+    background-color: $colorFondo;
+}
+.letraMenu{
+    font-family: $letra;
+    font-size: 20px;
+    color: $colorCajas;  
+}
+
+.letraNombre{
+    font-family: $letra;
+    font-size: 20px;
+    color: $colorCajas;
+    text-transform: uppercase;
+}
+
+.letra{
+    font-family: $letra;
+    font-size: 26px;
+    color: $colorMenu;
+    text-transform: uppercase;
+}
+
+.letraClara{
+    color: $colorCajas;
+}
+
+
+.fotoPerfil{
+    width: 130px;
+    height: auto;
+}
+
+.colorMenu{
+    background-color: $colorMenu;
+}
+
+.colorCajas{
+    background-color: $colorCajas;
+}
+
+a > span {
+    color: $colorCajas;
+  }
+
+ul{
+    list-style: none;
+}
+
+.iconUser{
+    content: url('https://api.iconify.design/bx/bxs-user.svg?color=%23ffe7d4&width=20&height=20');
+}
+
+.iconTabajo{
+    content: url('https://api.iconify.design/ic/baseline-work.svg?color=%23ffe7d4&width=20&height=20');
+}
+
+.iconFormacion{
+    content: url('https://api.iconify.design/dashicons/book-alt.svg?color=%23ffe7d4&width=20&height=20');
+}
+
+.iconPorfolio{
+    content: url('https://api.iconify.design/ic/baseline-insert-photo.svg?color=%23ffe7d4&width=20&height=20');
+}
+
+.iconCV{
+    content: url('https://api.iconify.design/clarity/document-solid.svg?color=%23ffe7d4&width=20&height=20');
+}
+
+.iconContacto{
+    content: url('https://api.iconify.design/bx/bxs-contact.svg?color=%23ffe7d4&width=20&height=20');
+}
+
+.iconGithub{
+    content: url('https://api.iconify.design/eva/github-fill.svg?color=%23ffe7d4&width=40&height=40');
+}
+
+.iconLinkedin{
+    content: url('https://api.iconify.design/bx/bxl-linkedin-square.svg?color=%23ffe7d4&width=40&height=40');
+}
+
+.iconSkype{
+    content: url('https://api.iconify.design/raphael/skype.svg?color=%23ffe7d4&width=40&height=40');
+}
+
+.iconDiscord{
+    content: url('https://api.iconify.design/fa-brands/discord.svg?color=%23ffe7d4&width=40&height=40');
+}
+
+.iconoHtml{  
+    content:url('https://api.iconify.design/logos/html-5.svg?width=50&height=50');
+}
+
+.iconoCss{  
+    content: url('https://api.iconify.design/logos/css-3.svg?width=50&height=50');
+}
+
+.iconoBootstrap{  
+    content: url('https://api.iconify.design/logos/bootstrap.svg?width=50&height=50');
+}
+
+.iconoJava{  
+    content: url('https://api.iconify.design/logos/java.svg?width=50&height=50');
+}
+
+.iconoPsql{  
+    content: url('https://api.iconify.design/vscode-icons/file-type-pgsql.svg?width=50&height=50');
+}
+
+
+.iconoJavaScript{  
+    content: url('https://api.iconify.design/tabler/brand-javascript.svg?width=50&height=50&color=%23eeee06');
+}
+
+.porfolio img{
+    width: 900px;
+    height: auto;
+}
+
+.iconDescarga{
+    content: url('https://api.iconify.design/fa-solid/cloud-download-alt.svg?color=%23494e5f&width=40&height=40'); 
+}
+
+.Discord{
+    content: url('https://api.iconify.design/logos/discord-icon.svg?color=%23ffe7d4&width=40&height=40');
+}
+.Web{
+content: url('https://api.iconify.design/flat-color-icons/search.svg?color=%23ffe7d4&width=40&height=40');
+}
+.iconoEmail{ 
+content: url('https://api.iconify.design/fxemoji/email.svg?color=%23eeee06&width=50&height=50');
+}
+.iconoPhone{
+content: url('https://api.iconify.design/emojione/mobile-phone.svg?color=%23eeee06&width=50&height=50');
+}
+
+.up{
+    content: url('https://api.iconify.design/akar-icons/circle-chevron-up-fill.svg?color=%23494e5f&width=40&height=40');
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
